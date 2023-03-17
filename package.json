@@ -8,8 +8,8 @@
     "vuepress-plugin-tabs": "^0.3.0"
   },
   "scripts": {
-    "build": "vuepress build",
-    "watch": "vuepress dev"
+    "build": "vuepress --openssl-legacy-provider build",
+    "watch": "vuepress --openssl-legacy-provider dev"
   },
   "devDependencies": {
     "autoprefixer": "^9.0.1",
